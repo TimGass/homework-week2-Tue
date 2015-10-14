@@ -1,0 +1,137 @@
+section:first-child {
+  margin-left: 65px; }
+
+section {
+  display: inline-block;
+  width: 355px;
+  margin-top: 45px;
+  margin-left: 50px; }
+  section img {
+    height: 345px;
+    width: 355px;
+    border: 3px solid #5CA4D7;
+    border-bottom: none;
+    padding: 0px;
+    margin: 0px;
+    float: left; }
+  section section {
+    height: 55px;
+    width: 355px;
+    border: 3px solid #5CA4D7;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-bottom: 20px; }
+  section button {
+    height: 55px;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-right: 3px solid #5CA4D7;
+    float: left;
+    background-color: #FFF;
+    font-size: 20px;
+    color: #5CA4D7;
+    font-weight: 500;
+    position: relative; }
+    section button:focus {
+      outline: none; }
+    section button:nth-of-type(5) {
+      border: none; }
+    section button i {
+      color: #5CA4D7; }
+    section button div.invisible {
+      display: none;
+      width: 0px;
+      height: 0px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid  transparent;
+      border-top: 10px solid #FFF;
+      margin: auto;
+      position: absolute;
+      left: 25px;
+      bottom: 50px;
+      z-index: 3; }
+    section button div.blue {
+      height: 30px;
+      width: 30px;
+      background-color: #81BCE6;
+      margin: auto; }
+    section button div.pink {
+      height: 30px;
+      width: 30px;
+      background-color: #D482AA;
+      margin: auto; }
+    section button div.orange {
+      height: 30px;
+      width: 30px;
+      background-color: #DCB07D;
+      margin: auto; }
+    section button div.green {
+      height: 30px;
+      width: 30px;
+      background-color: #94BE9A;
+      margin: auto; }
+    section button div.optionsbar {
+      display: none;
+      z-index: 2; }
+    section button div.colorbar {
+      display: none;
+      z-index: 2; }
+    section button:hover {
+      background-color: #5CA4D7;
+      color: #FFF;
+      border-top: none; }
+      section button:hover i {
+        color: #FFF; }
+      section button:hover div.optionsbar {
+        display: block;
+        height: 200px;
+        width: 90px;
+        position: absolute;
+        bottom: 55px;
+        left: -14px;
+        border: 3px solid #5CA4D7;
+        background: #FFF;
+        color: #5CA4D7;
+        text-align: center; }
+      section button:hover div.colorbar {
+        display: block;
+        border: 3px solid #5CA4D7;
+        background: #FFF;
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        bottom: 55px;
+        left: -14px; }
+        section button:hover div.colorbar div:nth-of-type(1) {
+          margin-top: 10px; }
+        section button:hover div.colorbar div:nth-of-type(2) {
+          margin-top: 10px; }
+        section button:hover div.colorbar div {
+          display: inline-block;
+          margin: 2px; }
+      section button:hover div.invisible {
+        display: block; }
+  section h1 {
+    display: inline-block;
+    color: #5CA4D7;
+    font-size: 22px;
+    font-weight: lighter;
+    float: none;
+    height: 25px;
+    margin: 0px;
+    margin-left: 5px;
+    transform: scale(1, 1.25);
+    font-family: sans-serif; }
+    section h1.price {
+      display: inline-block;
+      font-weight: bold;
+      float: right; }
+
+br:first-of-type {
+  font-size: 20px; }
+
+br {
+  font-size: 40px; }
